@@ -28,14 +28,14 @@ public class Application implements Runnable {
 	public void run() {
 		// Aufruf des Taschenrechners
 		double result = calculator.add(1.0, 2.0, 3);
-		//if (LOG.isInfoEnabled()) {
+		if (LOG.isInfoEnabled()) {
 			LOG.info("run" + "Ergebnis 1 = {}", result);
-		//}
+		}
 		
 		result = calculator.add((double[]) null);
-		//if (LOG.isInfoEnabled()) {
+		if (LOG.isInfoEnabled()) {
 			LOG.info("run" + "Ergebnis 2 = {}", result);
-		//}
+		}
 
 	}
 

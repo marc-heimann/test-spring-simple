@@ -10,6 +10,7 @@
 		<config>src/main/java/de/heimann/services/calculator/calculator.xml</config>
 		<config>src/test/java/de/heimann/services/calculator/standard/SimpleCalculatorTest-context.xml</config>
 		<config>src/main/java/de/heimann/app/application.xml</config>
+		<config>src/main/java/de/heimann/aop/aop.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
